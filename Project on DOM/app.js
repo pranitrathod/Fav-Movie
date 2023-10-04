@@ -1,5 +1,9 @@
 const model =document.getElementById('add-modal');
-
+const buttons=model.lastElementChild;
+const cancleMoviesBtn=buttons.firstElementChild;
+const addMoviesBtn=cancleMoviesBtn.nextElementSibling;
+const userInputs=document.querySelectorAll('input');
+const moviesDetials=document.getElementById('moviesDetials');
 
 // const addMovies=header.lastElementChild; this approch is not good for long run if any developer add new element,js will always select lastElement
 
